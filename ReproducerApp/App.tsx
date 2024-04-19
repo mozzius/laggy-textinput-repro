@@ -26,7 +26,7 @@ export default function App() {
           The top input has the value prop set, the bottom one doesn't. If you spam type in the top one, the cursor will lag behind the text and you'll end up typing in the middle of a word.
         </Text>
         <Text>
-          Go to Settings > General > Keyboard and turn off both Auto-Correction and Predictive Text to see both work perfectly.
+          Go to Settings > General > Keyboard and turn off both "Auto-Correction" and "Show Predictions Inline" to see both work perfectly.
         </Text>
         <Text>
           You can turn on/off the autoCorrect prop with the switch below, to demonstrate that it's not able to fix the issue.
