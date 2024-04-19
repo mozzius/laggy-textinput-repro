@@ -10,7 +10,7 @@ import React, {useState} from 'react';
 import {TextInput, View, SafeAreaView, Text, Switch} from 'react-native';
 
 export default function App() {
-  const [autoCorrect, setAutoCorrect] = useState(false);
+  const [autoCorrect, setAutoCorrect] = useState(true);
   return (
     <SafeAreaView style={{flex: 1}}>
       <View style={{padding: 20, gap: 20}}>
